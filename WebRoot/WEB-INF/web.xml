@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>AddServlet</servlet-name>
+  <servlet-class>com.qg.task.servlet.AddServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>DeleteServlet</servlet-name>
+  <servlet-class>com.qg.task.servlet.DeleteServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>CompleteServlet</servlet-name>
+  <servlet-class>com.qg.task.servlet.CompleteServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>ModifyServlet</servlet-name>
+  <servlet-class>com.qg.task.servlet.ModifyServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>RecoverServlet</servlet-name>
+  <servlet-class>com.qg.task.servlet.RecoverServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>AddServlet</servlet-name>
+  <url-pattern>/AddServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>DeleteServlet</servlet-name>
+  <url-pattern>/DeleteServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>CompleteServlet</servlet-name>
+  <url-pattern>/CompleteServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ModifyServlet</servlet-name>
+  <url-pattern>/ModifyServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>RecoverServlet</servlet-name>
+  <url-pattern>/RecoverServlet</url-pattern>
+ </servlet-mapping>
+ <welcome-file-list>
+  <welcome-file>index.jsp</welcome-file>
+ </welcome-file-list>
+ <login-config>
+  <auth-method>BASIC</auth-method>
+ </login-config>
+</web-app>
