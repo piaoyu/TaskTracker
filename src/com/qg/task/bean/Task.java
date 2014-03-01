@@ -5,16 +5,16 @@ package com.qg.task.bean;
  *
  */
 public class Task {
-    //хннЯ╣дid
+        //О©╫О©╫О©╫О©╫О©╫О©╫id
 	private int id;
 	
-	//хннЯдзхщ
+	//О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫
 	private String content;
 	
-	//хннЯ╣дв╢л╛
+	//О©╫О©╫О©╫О©╫О©╫О©╫в╢л╛
 	private int state;
 	
-	//хннЯ╣дй╠╪Д
+	//О©╫О©╫О©╫О©╫О©╫О©╫й╠О©╫О©╫
 	private String time;
 	
 	public int getId() {
